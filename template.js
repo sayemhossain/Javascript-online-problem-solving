@@ -23,9 +23,6 @@ function readline() {
 
 function main() {
   // your code goes here
-  var A = parseInt(readline());
-  var B = parseInt(readline());
-
-  var X = A + B;
-  console.log("X = " + X);
+  var r = prompt();
+  console.log("A=" + (3.14159 * Math.pow(r, 2)).toFixed(4));
 }
